@@ -10,6 +10,7 @@ html {
   --dark-text: #212832;
   --text-color: #6a6e78;
   --btn-border: #e1e5e8;
+  --box-border: #e4e4ed;
   --primary-color: #3936c4;
   --primary-font: 'Poppins', sans-serif;
   font-size: 0.625rem;
@@ -36,6 +37,12 @@ h1 {
   font-size: 7rem;
   font-weight: 600;
   line-height: 8rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 4.8rem;
 }
 p {
   font-family: Poppins;
@@ -122,6 +129,118 @@ nav ul li a {
   background-color: var(--dark-text);
 }
 
+/* Website link  */
+.all-linkS {
+  margin-top: 10rem;
+  margin-bottom: 10.8rem;
+}
+.all-linkS h2 {
+  text-align: center;
+}
+.links {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 6rem;
+  padding-left: 10.625rem;
+  padding-right: 10.625rem;
+  margin-top: 3.8rem;
+}
+
+/* work section start  */
+.work {
+  margin-bottom: 18rem;
+}
+.text {
+  text-align: center;
+}
+.text h2 {
+  font-size: 4.2rem;
+  font-weight: 600;
+  line-height: 5.2rem;
+  padding-bottom: 1.8rem;
+}
+.text p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  padding-bottom: 7rem;
+}
+.services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+}
+.service {
+  padding: 3.8rem 2.8rem;
+  border: 1px solid var(--box-border);
+  border-radius: 1.2rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.service h3 {
+  font-size: 2.4rem;
+  font-weight: 600;
+  line-height: 3.4rem;
+  padding-top: 3.6rem;
+}
+.service p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+}
+.service a {
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 2.8rem;
+  color: var(--dark-text);
+}
+/* Work section end  */
+
+/* Features section  */
+.feature {
+  padding-bottom: 18rem;
+}
+.feature-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: center;
+  align-items: center;
+  gap: 13rem;
+}
+.feature-content h2 {
+  font-size: 4.2rem;
+  font-weight: 600;
+  line-height: 5.2rem;
+  padding-bottom: 1.8rem;
+}
+.feature-content p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  padding-bottom: 2.8rem;
+}
+.text-img {
+  padding-bottom: 3.8rem;
+}
+/* Features section End  */
+
+/* Job Features Start  */
+
+.job-text h2 {
+  font-size: 4.2rem;
+  font-weight: 600;
+  line-height: 5.2rem;
+  text-align: center;
+  padding-bottom: 1.8rem;
+}
+.job-text p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.8rem;
+  text-align: center;
+  padding-bottom: 7rem;
+}
 @media (max-width: 768px) {
   html {
     font-size: 0.5rem;
